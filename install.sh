@@ -166,7 +166,7 @@ install_x-ui() {
             exit 1
         fi
     fi
-    wget -O /usr/bin/x-ui-temp https://raw.githubusercontent.com/MHSanaei/3x-ui/main/x-ui.sh
+    curl -O /usr/bin/x-ui-temp https://raw.githubusercontent.com/Simon-174/my_vpn/main/x-ui.sh
 
     # Stop x-ui service and remove old resources
     if [[ -e /usr/local/x-ui/ ]]; then
